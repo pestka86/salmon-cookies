@@ -33,12 +33,12 @@ body {
 }
 
 /*************
-  General styling / Elements
-  **************/
+General styling / Elements
+**************/
 
 /*************
-  Images
-  **************/
+Images
+**************/
 
 img {
   width: 100%;
@@ -46,8 +46,8 @@ img {
 }
 
 /*************
-  Buttons / Links / li
-  **************/
+Buttons / Links / li
+**************/
 
 a,
 button {
@@ -60,8 +60,8 @@ li {
 }
 
 /*************
-  Typography
-  **************/
+Typography
+**************/
 
 .thin {
   font-weight: 300;
@@ -77,8 +77,8 @@ h2 {
 }
 
 /*************
-  Layout
-  **************/
+Layout
+**************/
 
 .container {
   width: 90%;
@@ -107,6 +107,13 @@ nav ul li {
   padding: 2rem 0;
 }
 
-/*************
-  Media Queries
-  **************/
+table {
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 1rem;
+}
